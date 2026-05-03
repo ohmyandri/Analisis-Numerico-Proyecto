@@ -7,7 +7,7 @@ def dibujar_circulo(r, xc, yc):
     y = r * np.sin(theta) + yc
     plt.plot(x, y)
 
-plt.figure(figsize=(40,40))
+plt.figure(figsize=(8,8))
 
 
 num_circulos = 40000
@@ -40,7 +40,6 @@ for k in range(num_circulos):
     dibujar_circulo(radio, xc, yc)
 
 plt.gca().set_aspect("equal", "box")
-
+plt.title("Yenageh de Mariposa")
+plt.savefig("assets/Butterfly.png", dpi=300)
 plt.show()
-plt.savefig("Butterfly.png", dpi=300)
-
