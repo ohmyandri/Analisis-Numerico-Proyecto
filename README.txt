@@ -1,0 +1,1 @@
+Proyecto para la clase de Analisis Numerico - 2026-2
